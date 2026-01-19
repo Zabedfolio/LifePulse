@@ -1,7 +1,5 @@
 # LifePulse - Blood Bank Management System
 
-![LifePulse Logo](https://via.placeholder.com/1200x400?text=LifePulse+Blood+Bank) <!-- Replace with actual logo or banner if available -->
-
 [![GitHub Repo stars](https://img.shields.io/github/stars/Zabedfolio/LifePulse?style=social)](https://github.com/Zabedfolio/LifePulse/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Zabedfolio/LifePulse?style=social)](https://github.com/Zabedfolio/LifePulse/network/members)
 [![License](https://img.shields.io/github/license/Zabedfolio/LifePulse?color=blue)](https://github.com/Zabedfolio/LifePulse/blob/main/LICENSE)
