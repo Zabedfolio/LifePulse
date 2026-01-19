@@ -90,6 +90,16 @@ Database: `LifePulse_DB`
 - **blood_stock**: `blood_group` (PK), `units_available`
 - **donors**: `donor_id` (PK, auto), `name`, `age`, `gender`, `blood_group`, `phone`, `email`, `address`, `last_donation_date`, `created_at`
 
+Contributing
+Contributions are welcome! Follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/YourFeature).
+Commit your changes (git commit -m 'Add YourFeature').
+Push to the branch (git push origin feature/YourFeature).
+Open a Pull Request.
+
+
 Run the following SQL to set up (or use provided dump):
 ```sql
 CREATE DATABASE LifePulse_DB;
@@ -146,13 +156,3 @@ CREATE TABLE donors (
 -- Insert default admin (change password in production)
 INSERT INTO admins (username, password) VALUES ('admin', 'admin'); -- Plaintext for demo; hash in real use
 
-Contributing
-Contributions are welcome! Follow these steps:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m 'Add YourFeature').
-Push to the branch (git push origin feature/YourFeature).
-Open a Pull Request.
-
-Please ensure code follows PHP best practices and includes comments.
